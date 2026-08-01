@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* header  */
+
+.logo{
+    font-weight: bold;
+}
+.logo::first-letter{
+    color: red;
+}
+.header span{
+    color: red;
+}
+.text span{
+    color: red;
+}
+.header p{
+    color: black;
+    text-align: justify;
+    
+}
+img.delicious-food {
+    width: 100%;
+}
+.text h1,h2{
+    text-align: center;
+    font-style: bold;
+    
+}
+.text h2{
+    margin-bottom: 20px;
+}
+.text p{
+    text-align: center;
+}
+ul li::marker{
+    color: red;
+}
+
+/* menu */
+
+.menu h3{
+    text-align: center;
+    font-weight: bold;
+}
+.menu span{
+    color: red;
+}
+.menu {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.menu h1{
+    margin-bottom: 20px;
+}
+.explore-menu-list-item img{
+    width: 80%;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.explore-menu-list{
+    display: flex;
+}
+.explore-menu-list-item p{
+    font-weight: 500;
+    text-align:center;
+}
+.menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.explore-menu-list-item .active{
+    border: 2px solid red;
+    padding: 2px;
+}
+
+/* food */
+
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-weight: bold;
+}
+.food-display span{
+    color: red;
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 20px;
+}
+.food-items{
+    border-radius: 15px;
+    transition: 0.3;
+    text-align: center;
+}
+.food-items:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 12px rgb(231, 90, 90);
+}
+.food-item-info{
+    padding: 10px;
+}
+.food-item-info p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.food-item-desc{
+    color: #676767;
+    font-size: 12px;
+}
+.food-item-price{
+    color: red;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px 0px;
+} 
+
+.food-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.cart-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.food-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
